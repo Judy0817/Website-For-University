@@ -1,0 +1,33 @@
+section{
+    margin:30px;
+}
+.navbar{
+    margin-bottom: 10px;
+}
+.University{
+    margin-bottom: 20px;
+}
+.detail{
+    margin-top: 20px;
+}
+.one{
+    color: blue;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:#0c0c0c;
+}
+@media screen and (min-width:400px){
+    .links a:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #858080;
+    margin:10px;
+    border-radius: 5px;
+    width:100px;
+    text-align: center;
+}
+}
